@@ -363,13 +363,13 @@ linux中关于权限的管控级别有2个，分别是：
 
 ##### 认知权限信息
 
-![](F:\workspace\Note\image\Snipaste_2023-07-06_16-50-56.png)
+![](image\Snipaste_2023-07-06_16-50-56.png)
 
 * 序号1，表示文件、文件夹的权限控制信息
 * 序号2，表示文件、文件夹的所属用户
 * 序号3，表示文件、文件夹所属用户组
 
-![](F:\workspace\Note\image\Snipaste_2023-07-06_16-54-38.png)
+![](image\Snipaste_2023-07-06_16-54-38.png)
 
 举例：drwxr-xr-x，表示；
 
@@ -529,7 +529,7 @@ linux很多软件（内置或第三方）均支持使用systemctl命令控制：
   * %S 秒
   * %s 自 1970-01-01 00:00:00 UTC 到现在的秒数
 
-![](F:\workspace\Note\image\Snipaste_2023-07-07_16-02-10.png)
+![](image\Snipaste_2023-07-07_16-02-10.png)
 
 * 其中支持的时间标记为：
   * year
@@ -581,7 +581,7 @@ sduo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtim
 
 ##### 主机名
 
-![](F:\workspace\Note\image\Snipaste_2023-07-07_16-26-40.png)
+![](image\Snipaste_2023-07-07_16-26-40.png)
 
 ##### 在linux中修改主机名
 
@@ -604,7 +604,7 @@ sduo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtim
 
 * 使用vim编辑/etc/sysconfig/network-scrpts/ifcfg-ens33文件，填入如下内容
 
-  ![](F:\workspace\Note\image\Snipaste_2023-07-07_16-38-32.png)
+  ![](image\Snipaste_2023-07-07_16-38-32.png)
 
 * 执行：systemctl restart network
 
@@ -639,9 +639,9 @@ curl可以发送http网络请求，可用于：下载文件，获取信息等
 
 ##### 端口
 
-![](F:\workspace\Note\image\Snipaste_2023-07-07_16-54-26.png)
+![](image\Snipaste_2023-07-07_16-54-26.png)
 
-![](F:\workspace\Note\image\Snipaste_2023-07-07_16-55-10.png)
+![](image\Snipaste_2023-07-07_16-55-10.png)
 
 ##### 查看端口占用
 
@@ -668,7 +668,7 @@ curl可以发送http网络请求，可用于：下载文件，获取信息等
 * 选项：-e，显示出全部的进程
 * 选项：-f，以完全格式化的形式展示信息（展示全部信息
 
-![](F:\workspace\Note\image\Snipaste_2023-07-07_17-13-41.png)
+![](image\Snipaste_2023-07-07_17-13-41.png)
 
 ##### 查看指定进程
 
@@ -688,8 +688,8 @@ curl可以发送http网络请求，可用于：下载文件，获取信息等
 
 语法：直接输入top，按q或者ctrl+c退出
 
-![](F:\workspace\Note\image\Snipaste_2023-07-07_17-21-08.png)
+![](image\Snipaste_2023-07-07_17-21-08.png)
 
-![](F:\workspace\Note\image\Snipaste_2023-07-07_17-23-33.png)
+![](image/Snipaste_2023-07-07_17-23-33.png)
 
-![](F:\workspace\Note\image\Snipaste_2023-07-07_17-25-03.png)
+![](image\Snipaste_2023-07-07_17-25-03.png)
